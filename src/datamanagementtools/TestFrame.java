@@ -63,7 +63,7 @@ public class TestFrame extends javax.swing.JFrame {
     {
         try
         {
-            URI remote = new URI("remote:/dod_admin@172.20.16.37:22/home/dod_admin/testfile");
+            URI remote = new URI("remote:/dod_admin@xxx.xxx.xxx.xxx:22/home/dod_admin/testfile");
             URI local = new URI("local:/X:/test.txt");
             FileTransferQueueItem item = new FileTransferQueueItem(local, remote);
             item.setStatus("test");
